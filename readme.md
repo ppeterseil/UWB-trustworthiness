@@ -2,12 +2,12 @@
 In this repository two datasets are published. The first scenario refers to a localization scenario in which double-sided two-way ranging cycles carried out together with odd numbered anchors are subject to synchronization header attack ("jammer"). The second scenario demonstrates the effect of dilution of precision in ultra-wideband localization ("pdop").
 
 ## Experiment 1: "Jammer"
-In this scenario, eight anchors are used in a static office environment, positioned at distances ranging from 1.5m to 4m to the node. A jamming device in proximity of the node is executing a synchronization header attack on four out of eight anchors, aiming at reduction of estimated distances, which further yields wrong position estimates.
-<img src="fig/jammer.png" width="300">
+In this scenario, eight anchors are used in a static office environment, positioned at distances ranging from 1.5m to 4m to the node. A jamming device in proximity of the node is executing a synchronization header attack on four out of eight anchors, aiming at reduction of estimated distances, which further yields wrong position estimates.<br>
+<center><img src="fig/jammer.png" width="400"></center>
 
 ## Experiment 2: "Position Dilution of Precision"
-In this dynamic experiment, the tag first approaches the borders of the service area covered by a set of four anchors, exceeds them, and then, at a maximum distance of approximately 20 meters from the anchors, returns to its starting position. Initially, the anchors are favorably located, but as the distance increases, dilution of precision deteriorates localization quality.
-<img src="fig/pdop.png" width="300">
+In this dynamic experiment, the tag first approaches the borders of the service area covered by a set of four anchors, exceeds them, and then, at a maximum distance of approximately 20 meters from the anchors, returns to its starting position. Initially, the anchors are favorably located, but as the distance increases, dilution of precision deteriorates localization quality.<br>
+<center><img src="fig/pdop.png" width="400"></center>
 
 # Data structure
 The data is organized in csv files for portability. The provided data is summarized in the table below.
