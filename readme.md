@@ -1,6 +1,6 @@
 # UWB Trustworthiness dataset
-In this repository two datasets are published. The first scenario refers to a localization scenario in which double-sided two-way ranging cycles carried out together with odd numbered anchors are subject to synchronization header attack ("Jammer"). The second scenario demonstrates the effect of dilution of precision in ultra-wideband localization ("Position Dilution of Precision").
-
+In this repository two datasets are published. The first scenario refers to a localization scenario in which double-sided two-way ranging cycles carried out together with odd numbered anchors are subject to synchronization header attack ("Jammer"). The second scenario demonstrates the effect of dilution of precision in ultra-wideband localization ("Position Dilution of Precision").<br>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12705892.svg)](https://doi.org/10.5281/zenodo.12705892)
 ## Experiment 1: Jammer
 In this scenario, eight anchors are used in a static office environment, positioned at distances ranging from 1.5m to 4m to the node. A jamming device in proximity of the node is executing a synchronization header attack on four out of eight anchors, aiming at reduction of estimated distances, which further yields wrong position estimates.
 <p align="center"><img src="fig/jammer.png" height="400"></p>
