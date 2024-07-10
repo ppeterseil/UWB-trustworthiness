@@ -3,11 +3,11 @@ In this repository two datasets are published. The first scenario refers to a lo
 
 ## Experiment 1: "Jammer"
 In this scenario, eight anchors are used in a static office environment, positioned at distances ranging from 1.5m to 4m to the node. A jamming device in proximity of the node is executing a synchronization header attack on four out of eight anchors, aiming at reduction of estimated distances, which further yields wrong position estimates.
-![Jammer scenario: arrangement of tag and anchors](fig/jammer.png)
+<img src="fig/jammer.png" width="300">
 
 ## Experiment 2: "Position Dilution of Precision"
 In this dynamic experiment, the tag first approaches the borders of the service area covered by a set of four anchors, exceeds them, and then, at a maximum distance of approximately 20 meters from the anchors, returns to its starting position. Initially, the anchors are favorably located, but as the distance increases, dilution of precision deteriorates localization quality.
-![PDoP scenario: Anchor placement and estimated positions](fig/pdop.png){width=1cm}
+<img src="fig/pdop.png" width="300">
 
 # Data structure
 The data is organized in csv files for portability. The provided data is summarized in the table below.
