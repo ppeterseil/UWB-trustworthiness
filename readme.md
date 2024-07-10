@@ -7,7 +7,7 @@ In this scenario, eight anchors are used in a static office environment, positio
 
 ## Experiment 2: "Position Dilution of Precision"
 In this dynamic experiment, the tag first approaches the borders of the service area covered by a set of four anchors, exceeds them, and then, at a maximum distance of approximately 20 meters from the anchors, returns to its starting position. Initially, the anchors are favorably located, but as the distance increases, dilution of precision deteriorates localization quality.
-![PDoP scenario: Anchor placement and estimated positions](fig/pdop.png)
+![PDoP scenario: Anchor placement and estimated positions](fig/pdop.png){width=1cm}
 
 # Data structure
 The data is organized in csv files for portability. The provided data is summarized in the table below.
@@ -56,5 +56,3 @@ If you have any questions please contact
 
 # License 
 This dataset is distributed under the [Creative Commons Attributions License 4.0 (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-# Literature
